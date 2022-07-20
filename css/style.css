@@ -117,7 +117,36 @@
 
 .flex-div {
     flex: 1;
-    padding: 7px;
-    border: 10px solid #3882f6;
-    background: #f9faf8;
+    height: 250px;
+    width: 50px;
+    padding: 120px;
+    border: 2px solid #3882f6;
+    border-radius: 25px;
+    margin: 0 50px;
+    background: white;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    color: #1F2937;
+    padding: 200px;
+    position: relative;
+    top: 0%; right: 0%; bottom: 0%; left: 0%;
+    text-align: center;
+}
+
+.quote p {
+    flex: 1;
+    margin: 0%;
+    font-weight: lighter;
+    font-size: xx-large;
+}
+
+.quote-author {
+    flex: 1;
+    padding-right: 400px;
+    font-size: larger;
+    text-align: right;
 }
