@@ -3,7 +3,7 @@
 }
 
 #hero {
-    display: inline-block;
+  /*  display: inline-block;
  /*   position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
@@ -126,6 +126,11 @@
     background: white;
 }
 
+.flex-div img {
+    width: 120px;
+    height: 120px;
+}
+
 .quote {
     display: flex;
     flex-direction: column;
@@ -149,4 +154,105 @@
     padding-right: 400px;
     font-size: larger;
     text-align: right;
+}
+
+.action-flex {
+    display: flex;
+    padding: 100px;
+}
+
+.action-flex :first-child {
+    width: 150px;
+}
+
+.action-border {
+    border: 2px solid #f9faf8;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.action {
+    flex: 1;
+    color: #f9faf8;
+    background-color: #3882f6;
+    text-align: left;
+    font-size: larger;
+    padding-left: 200px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.action h2 {
+    margin: 0%;
+}
+
+.action p {
+    margin: 0%;
+}
+
+.flex-button {
+    flex: 1;
+    background-color: #3882f6;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.action-flex-button {
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    color: #f9faf8;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+/* The footer bar */
+.footer {
+    /* position: fixed; */ /* Set the footer to fixed position */
+    bottom: 0; /* Position the footer at the bottom of the page */
+    width: 100%; /* Full width */
+    background-color: #1F2937;
+    color: #f9faf8;
+    text-align: center;
+}
+
+.footer p {
+    padding-top: 20px;
+    margin: 0%;
+    padding-bottom: 10px;
+}
+
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1F2937;
+    text-align: center;
+}
+
+.footer li {
+   /* float: left; */
+   display:inline-block;
+}
+  
+.footer li a {
+    disply:a block;
+    color: #f9faf8;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+  
+.footer li a:hover {
+    background-color: #111111;
+}
+
+.footer-div {
+    padding-bottom: 20px;
 }
