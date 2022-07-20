@@ -118,6 +118,6 @@
 .flex-div {
     flex: 1;
     padding: 7px;
-    border: 10px #3882f6;
+    border: 10px solid #3882f6;
     background: #f9faf8;
 }
